@@ -14,7 +14,7 @@ class AuthService extends ChangeNotifier {
     AppUser(
       uid: 'admin_user',
       email: 'admin@agricore.com',
-      fullName: 'Alice Vance (Admin)',
+      fullName: 'Amit Sharma (Admin)',
       role: UserRole.administrator,
       permissions: [
         'users.manage',
@@ -36,7 +36,7 @@ class AuthService extends ChangeNotifier {
     AppUser(
       uid: 'procurement_user',
       email: 'procurement@agricore.com',
-      fullName: 'Peter Parker (Procurement)',
+      fullName: 'Priya Patel (Procurement)',
       role: UserRole.procurement,
       permissions: [
         'campaigns.create',
@@ -50,7 +50,7 @@ class AuthService extends ChangeNotifier {
     AppUser(
       uid: 'quality_user',
       email: 'quality@agricore.com',
-      fullName: 'Quinn Snyder (Quality)',
+      fullName: 'Rajesh Verma (Quality)',
       role: UserRole.quality,
       permissions: [
         'campaigns.view',
@@ -64,7 +64,7 @@ class AuthService extends ChangeNotifier {
     AppUser(
       uid: 'warehouse_user',
       email: 'warehouse@agricore.com',
-      fullName: 'Wendy Adams (Warehouse)',
+      fullName: 'Vikram Singh (Warehouse)',
       role: UserRole.warehouse,
       permissions: [
         'warehouse.manage',
@@ -75,7 +75,7 @@ class AuthService extends ChangeNotifier {
     AppUser(
       uid: 'management_user',
       email: 'management@agricore.com',
-      fullName: 'Marcus Aurelius (Management)',
+      fullName: 'Meera Nair (Management)',
       role: UserRole.management,
       permissions: [
         'campaigns.view',

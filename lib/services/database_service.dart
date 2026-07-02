@@ -225,7 +225,7 @@ class DatabaseService extends ChangeNotifier {
     final ins1 = Inspection(
       inspectionId: 'INSP-001',
       campaignId: 'CAMP-2026-WHEAT',
-      farmerName: 'John Miller',
+      farmerName: 'Ramesh Patil',
       farmerPhone: '555-0199',
       farmerAddress: '742 Evergreen Terrace, Topeka, KS',
       locationName: 'Miller Grain Homestead',
@@ -246,7 +246,7 @@ class DatabaseService extends ChangeNotifier {
     final ins2 = Inspection(
       inspectionId: 'INSP-002',
       campaignId: 'CAMP-2026-SOY',
-      farmerName: 'Sarah Jenkins',
+      farmerName: 'Sunita Devi',
       farmerPhone: '555-0234',
       farmerAddress: 'Route 6, Ames, IA',
       locationName: 'Jenkins Family Farms',
